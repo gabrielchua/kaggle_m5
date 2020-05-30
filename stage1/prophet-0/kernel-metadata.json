@@ -1,0 +1,18 @@
+{
+  "id": "gabzchua/fbprophet-0",
+  "title": "fbprophet_0",
+  "code_file": "fbprophet-0.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "gabzchua/identify-first-sell-date-andprices"
+  ],
+  "competition_sources": [
+    "m5-forecasting-accuracy"
+  ]
+}

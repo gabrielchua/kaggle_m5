@@ -1,0 +1,22 @@
+{
+  "id": "gabzchua/m5-train-ca3",
+  "id_no": 9473489,
+  "title": "m5_train_CA3",
+  "code_file": "m5-train-ca3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "gabzchua/m5-store-lvl-data-v1"
+  ],
+  "kernel_sources": [
+    "gabzchua/m5-wrmsee-eval",
+    "gabzchua/m5-dataextracttransform-partb-ca"
+  ],
+  "competition_sources": [
+    "m5-forecasting-accuracy"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gabzchua/identify-first-sell-date-andprices",
+  "id_no": 9667240,
+  "title": "identify_first_sell_date_andprices",
+  "code_file": "identify-first-sell-date-andprices.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "m5-forecasting-accuracy"
+  ]
+}
