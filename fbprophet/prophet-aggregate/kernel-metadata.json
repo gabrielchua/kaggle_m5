@@ -1,0 +1,16 @@
+{
+  "id": "gabzchua/fbprophet-aggregate",
+  "title": "fbprophet_aggregate",
+  "code_file": "fbprophet-aggregate.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "m5-forecasting-accuracy"
+  ]
+}
