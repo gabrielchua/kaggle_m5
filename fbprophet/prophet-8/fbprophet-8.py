@@ -8,6 +8,8 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 from fbprophet import Prophet
 
 df = pd.read_csv("/kaggle/input/m5-forecasting-accuracy/sales_train_validation.csv")
+df2 = pd.read_csv("/kaggle/input/calculate-revenue/revenue.csv")
+
 launch_date = pd.read_csv("/kaggle/input/identify-first-sell-date-andprices/m5_launch_date.csv")
 launch_date = np.array(launch_date['d'].values)
 prices = pd.read_csv("/kaggle/input/identify-first-sell-date-andprices/m5_prices_wide.csv")
@@ -24,7 +26,7 @@ residuals_store = np.zeros(1913).reshape(-1,1)
 for i in range(start_pt, end_pt):
     #start_t = time.time()
     start_date = launch_date[i]
-    time_series = df.iloc[i,6+(start_date-1):].values
+    time_series = df2.iloc[i,(start_date-1):].values
     time_series = pd.DataFrame([day_list_int[start_date-1:], time_series]).transpose()
     prices_vec = prices.iloc[i,start_date:-28].values
     

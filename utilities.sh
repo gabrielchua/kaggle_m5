@@ -1,6 +1,11 @@
 for i in {1..9}
 do 
-	sed "s/part = 0/part = $i/g" stage1/prophet-0/fbprophet-0.py > stage1/prophet-$i/fbprophet-$i.py
+	sed "s/part = 0/part = $i/g" fbprophet/prophet-0/fbprophet-0.py > fbprophet/prophet-$i/fbprophet-$i.py
+done
+
+for i in {1..9}
+do 
+	sed "s/-0/part = $i/g" fbprophet/prophet-0/kernel-metadata.json > fbprophet/prophet-$i/fbprophet-$i.py
 done
 
 

@@ -16,7 +16,8 @@
   "kernel_sources": [
     "gabzchua/m5-calc-weights",
     "gabzchua/m5-wrmsee-eval",
-    "gabzchua/m5-dataextracttransform-partb-ca"
+    "gabzchua/m5-dataextracttransform-partb-ca",
+    "gabzchua/calculate-revenue"
   ],
   "competition_sources": [
     "m5-forecasting-accuracy"

@@ -10,7 +10,8 @@
   "keywords": [],
   "dataset_sources": [],
   "kernel_sources": [
-    "gabzchua/identify-first-sell-date-andprices"
+    "gabzchua/identify-first-sell-date-andprices",
+    "gabzchua/calculate-revenue"
   ],
   "competition_sources": [
     "m5-forecasting-accuracy"
