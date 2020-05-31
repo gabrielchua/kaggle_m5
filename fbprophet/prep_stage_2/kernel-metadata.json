@@ -1,0 +1,27 @@
+{
+  "id": "gabzchua/prep-stage-2",
+  "title": "prep_stage_2",
+  "code_file": "prep_stage_2.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "kernel_sources": [
+    "gabzchua/fbprophet-0",
+    "gabzchua/fbprophet-1",
+    "gabzchua/fbprophet-2",
+    "gabzchua/fbprophet-3",
+    "gabzchua/fbprophet-4",
+    "gabzchua/fbprophet-5",
+    "gabzchua/fbprophet-6",
+    "gabzchua/fbprophet-7",
+    "gabzchua/fbprophet-8",
+    "gabzchua/fbprophet-9",
+    "gabzchua/fbprophet-aggregate"
+  ],
+  "competition_sources": [
+    "m5-forecasting-accuracy"
+  ]
+}
