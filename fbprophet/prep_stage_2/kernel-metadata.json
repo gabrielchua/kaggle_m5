@@ -19,7 +19,7 @@
     "gabzchua/fbprophet-7",
     "gabzchua/fbprophet-8",
     "gabzchua/fbprophet-9",
-    "gabzchua/fbprophet-aggregate"
+    "gabzchua/prophet-aggregate"
   ],
   "competition_sources": [
     "m5-forecasting-accuracy"
