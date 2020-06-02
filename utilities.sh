@@ -27,7 +27,7 @@ done
 
 for i in {0..9}
 do 
-	cd stage1/prophet-$i
+	cd fbprophet/prophet-$i
 	kaggle kernels push
 	cd ...
 done
