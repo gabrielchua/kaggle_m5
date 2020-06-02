@@ -76,12 +76,12 @@ for i in range(start_pt, end_pt):
     m.add_regressor('weekends')
     m.add_regressor('snap')
 
-    m.add_regressor('cum7')
+    m.add_regressor('cum7', standardize = False)
     # m.add_regressor('cum14')
     # m.add_regressor('cum28')
     # m.add_regressor('cum56')
-    m.add_regressor('cum_max')
-    m.add_regressor('cum_zero')
+    m.add_regressor('cum_max', standardize = False)
+    m.add_regressor('cum_zero', standardize = False)
         
     m.add_seasonality(name='monthly', period=30.5, fourier_order=4)
     m.add_seasonality(name='quarterly', period=91, fourier_order=4) # new
